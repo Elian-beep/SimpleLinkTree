@@ -15,15 +15,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FAFAFAFA;
 }
 
 .container{
+    background: #FAFAFAFA;
     width: 360px;
     height: 640px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
 
     padding: 32px auto;
 }
@@ -84,4 +87,19 @@ body{
 }
 .links .link-title{
     width: 60%;
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background: linear-gradient(180deg, #120C56 0%, #22C1C3 100%);
+    }
+
+    .container{
+        width: 440px;
+        height: 700px;
+    }
+
+    .links{
+        width: 100%;
+    }
 }
