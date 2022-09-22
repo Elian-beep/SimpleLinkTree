@@ -12,9 +12,14 @@ html{
 body{
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
+    width: 360px;
+    height: 640px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +31,6 @@ body{
 .container-logo{
     width: 150px;
     height: 150px;
-    margin-top: 4vh;
 }
 
 .container-titulo{
@@ -40,7 +44,7 @@ body{
     font-weight: 600;
     font-size: 16px;
     color: #353839;
-    margin-top: 2vh;
+    margin-top: .5vh;
 }
 
 .links{
@@ -49,7 +53,7 @@ body{
     align-items: center;
     width: 100%;
 
-    gap: 8px;
+    gap: 12px;
     margin-top: 4vh;
 }
 
