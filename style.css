@@ -93,13 +93,13 @@ body{
     background-color: #120C56;
 }
 
-@media screen and (min-width: 1279px){
+@media screen and (min-width: 1280px){
     body{
         background-color: green;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1500px) {
     body{
         background: linear-gradient(180deg, #120C56 0%, #22C1C3 100%);
     }
