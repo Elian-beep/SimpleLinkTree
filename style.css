@@ -95,7 +95,16 @@ body{
 
 @media screen and (min-width: 1280px){
     body{
-        background-color: green;
+        background: linear-gradient(180deg, #120C56 0%, #22C1C3 100%);
+    }
+
+    .container{
+        width: 400px;
+        height: 95vh;
+    }
+
+    .links{
+        width: 100%;
     }
 }
 
