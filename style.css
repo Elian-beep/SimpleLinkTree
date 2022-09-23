@@ -15,11 +15,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FAFAFAFA;
+    background: #FAFAFA;
 }
 
 .container{
-    background: #FAFAFAFA;
+    background: #FAFAFA;
     width: 360px;
     height: 640px;
     display: flex;
@@ -82,11 +82,15 @@ body{
 
 .links span{
     font-size: 24px;
-    color: #FFFFFF;
+    color: #FAFAFA;
     margin-right: 50px;
 }
 .links .link-title{
     width: 60%;
+}
+
+.links a:hover{
+    background-color: #120C56;
 }
 
 @media screen and (min-width: 1000px) {
@@ -96,7 +100,7 @@ body{
 
     .container{
         width: 440px;
-        height: 700px;
+        height: 95vh;
     }
 
     .links{
