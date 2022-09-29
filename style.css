@@ -96,6 +96,20 @@ body{
 @media screen and (min-width: 1280px){
     body{
         background: linear-gradient(180deg, #120C56 0%, #22C1C3 100%);
+        /* background: green; */
+    }
+
+    .container-logo{
+        width: 120px;
+        height: 120px;
+    }
+
+    .container-titulo{
+        font-size: 30px;
+    }
+
+    .container-subtitulo{
+        font-size: 13px;
     }
 
     .container{
@@ -105,6 +119,16 @@ body{
 
     .links{
         width: 100%;
+        margin-top: 2vh;
+        gap: 10px;
+    }
+
+    .links a{
+        padding: 8px;
+    }
+
+    .link-title{
+        font-size: 26px;
     }
 }
 
