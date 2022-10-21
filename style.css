@@ -9,6 +9,7 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
+/* DISPLAY: MOBILE */
 body{
     height: 100vh;
     width: 100vw;
@@ -18,6 +19,7 @@ body{
     background: #FAFAFA;
 }
 
+/* CONTAINER PRINCIPAL */
 .container{
     background: #FAFAFA;
     width: 360px;
@@ -31,11 +33,13 @@ body{
     padding: 32px auto;
 }
 
+/* IMAGEM DE PERFIL */
 .container-logo{
     width: 150px;
     height: 150px;
 }
 
+/* NOME */
 .container-titulo{
     font-weight: 700;
     font-size: 32px;
@@ -43,6 +47,7 @@ body{
     margin-top: 4vh;
 }
 
+/* SUBTITULO DA PESSOA */
 .container-subtitulo{
     font-weight: 600;
     font-size: 16px;
@@ -50,6 +55,7 @@ body{
     margin-top: .5vh;
 }
 
+/* ELEMENTO PAI DOS LINKS */
 .links{
     display: flex;
     flex-direction: column;
@@ -60,6 +66,7 @@ body{
     margin-top: 4vh;
 }
 
+/* LINK */
 .links a{
     width: 78%;
     background-color: #22C1C3;
@@ -73,6 +80,7 @@ body{
     padding: 10px;
 }
 
+/* ICONE DENTRO DO LINK */
 .links img{
     margin: 0;
     width: 32px;
@@ -80,13 +88,16 @@ body{
     margin-left: 32px;
 }
 
+/* ELEMENTO PAI DO TITULO DO LINK */
+.links .link-title{
+    width: 60%;
+}
+
+/* TEXTO DENTRO DO LINK */
 .links span{
     font-size: 24px;
     color: #FAFAFA;
     margin-right: 50px;
-}
-.links .link-title{
-    width: 60%;
 }
 
 .links a:hover{
@@ -96,7 +107,6 @@ body{
 @media screen and (min-width: 1280px){
     body{
         background: linear-gradient(180deg, #120C56 0%, #22C1C3 100%);
-        /* background: green; */
     }
 
     .container-logo{
