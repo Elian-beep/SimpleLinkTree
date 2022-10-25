@@ -1,0 +1,8 @@
+assets: https://drive.google.com/drive/folders/1v9oPHMAUYnOBA-0qoBmevre_5mXuqVgo?usp=sharing
+
+fonte: @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+insta: https://www.instagram.com/
+facebook: https://www.facebook.com/
+email: mailto:
+whatsapp: https://www.convertte.com.br/gerador-link-whatsapp/
