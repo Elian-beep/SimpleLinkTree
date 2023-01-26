@@ -9,6 +9,7 @@
 | :rocket: URL         | https://simple-link-tree-aj8q.vercel.app
 | :fire: Desafio     | PROJETO PESSOAL
 
+![](https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa_Simple_-_linktree.png#vitrinedev)
 ## Detalhes do projeto
 
 Simples projeto de árvore de links para o Workshop de HTML e CSS básico da SEMINFO 2022
